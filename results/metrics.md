@@ -23,3 +23,8 @@ to reproduce or adapt to other planetary bodies. In contrast,
 LunarCrater-Net uses YOLOv8 with transfer learning, which 
 outputs bounding boxes with coordinates instead of just 
 detection masks.
+
+## Section 6- Discussion
+Our results demonstrate that Reducing tile coverage from 60° to 15° increased crater box size from 0.003 to 0.022 — the single biggest improvement factor, mAP50 jumped from 0.0149 to 0.481 with three changes: tile resolution, dataset size, and training duration. This suggests that in small object detection tasks, reducing tile resolution is the dominant factor in small object detection performance for planetary imagery. 
+The primary limitation of this work is our synthetic data overestimated real-world performance —our mAP50 reduced from 0.481 to 0.298 despite having 100 epochs 
+Future work should incorporate real LROC WAC imagery instead of synthetic tiles, upgrade to YOLOv8s for higher model capacity, and evaluate performance separately on small, medium, and large craters to understand detection failure modes.
