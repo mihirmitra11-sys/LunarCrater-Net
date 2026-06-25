@@ -28,3 +28,9 @@ detection masks.
 Our results demonstrate that Reducing tile coverage from 60° to 15° increased crater box size from 0.003 to 0.022 — the single biggest improvement factor, mAP50 jumped from 0.0149 to 0.481 with three changes: tile resolution, dataset size, and training duration. This suggests that in small object detection tasks, reducing tile resolution is the dominant factor in small object detection performance for planetary imagery. 
 The primary limitation of this work is our synthetic data overestimated real-world performance —our mAP50 reduced from 0.481 to 0.298 despite having 100 epochs 
 Future work should incorporate real LROC WAC imagery instead of synthetic tiles, upgrade to YOLOv8s for higher model capacity, and evaluate performance separately on small, medium, and large craters to understand detection failure modes.
+
+## Abstract
+Automated lunar crater detection is critical as accurate crater maps are essential for safe landing site selection and surface navigation.
+We present LunarCrater-Net, an automated crater detection pipeline using YOLOv8n fine-tuned via transfer learning on the Robbins (2018) lunar crater catalog.
+Our key finding is that by decreasing tile_deg from 60 to 15, our mAP50 increased from 0.0149 to 0.481 and crater box size increased from 0.003 to 0.022. 
+These results suggest that tile resolution is a critical and often overlooked parameter in planetary small object detection, with implications beyond lunar crater mapping to other bodies in the Solar System.
