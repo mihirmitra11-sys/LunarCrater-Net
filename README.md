@@ -62,7 +62,7 @@ Open the notebooks in order:
 - Target: IEEE GRSL or ML4PS NeurIPS workshop submission
 
 ## References
-
+| YOLOv8n (Phase 4) | Real Robbins, 500 tiles, tile_deg=15 | 0.298 | 0.124 | 100 |
 - Silburt et al. (2019) — Lunar Crater Identification 
   via Deep Learning. arXiv:1803.02192
 - Robbins (2018) — Lunar Crater Database. 
