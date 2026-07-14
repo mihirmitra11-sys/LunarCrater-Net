@@ -83,6 +83,9 @@ research paper targeting ML4PS NeurIPS 2026 workshop.
 - Silburt et al. (2019) — Lunar Crater Identification
   via Deep Learning. arXiv:1803.02192
 - Robbins (2018) — Lunar Crater Database.
+
+- ## Paper
+**Preprint:** [doi.org/10.5281/zenodo.21348960](https://doi.org/10.5281/zenodo.21348960)
   doi:10.1029/2018JE005592
 - Ultralytics YOLOv8
 ## Usage
